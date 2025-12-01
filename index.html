@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+
+ 
+
+ <header>
+    <div class="nav-container">
+      <div class="logo">
+        <i class="fas fa-money-bill-wave"></i>
+        <span>CurrencyConverter</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Converter</a></li>
+          <li><a href="#">Exchange Rates</a></li>
+          <li><a href="#">Currency Charts</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </nav>
+      <div class="nav-buttons">
+        <button class="btn-login">Log in</button>
+        <button class="btn-register">Register</button>
+      </div>
+    </div>
+  </header>
+
+  
+  <section class="hero">
+    <h1>Currency Converter</h1>
+    <p>Convert 140 currencies at the mid-market exchange rate. Get accurate, real-time currency conversions instantly.</p>
+  </section>
+
+  <section class="converter-container">
+    <div class="converter-box">
+      <div class="rate-info">
+        <i class="fas fa-info-circle"></i>
+        Mid-market exchange rate: £1 GBP = 1.141 EUR
+      </div>
+
+      <div class="input-section">
+        <div class="amount-input">
+          <input id="amount" type="number" placeholder="0" value="1000" />
+        </div>
+        
+        <div class="currency-selectors">
+          <select class="currency-select" id="from"></select>
+          <select class="currency-select" id="to"></select>
+        </div>
+      </div>
+
+      <div class="result-section">
+        <div class="result-amount" id="result"></div>
+      </div>
+
+      <div class="save-info">
+        Using our currency converter? Get the most accurate rates with live market data. <a href="#">Learn more</a>
+      </div>
+
+      <div class="action-buttons">
+        <button class="primary-button" id="convert-btn">Convert</button>
+        <button class="secondary-button">View historical rates</button>
+      </div>
+    </div>
+
+    <div class="converter-box">
+      <h2 style="margin-bottom: 20px; color: #1a1a1a;">Why use our converter?</h2>
+      <ul style="list-style: none; padding-left: 0;">
+        <li style="padding: 12px 0; border-bottom: 1px solid #f3f4f6;">
+          <i class="fas fa-check" style="color: #00b2ff; margin-right: 10px;"></i>
+          Real mid-market exchange rates
+        </li>
+        <li style="padding: 12px 0; border-bottom: 1px solid #f3f4f6;">
+          <i class="fas fa-check" style="color: #00b2ff; margin-right: 10px;"></i>
+          No hidden fees or charges
+        </li>
+        <li style="padding: 12px 0; border-bottom: 1px solid #f3f4f6;">
+          <i class="fas fa-check" style="color: #00b2ff; margin-right: 10px;"></i>
+          Live currency data
+        </li>
+        <li style="padding: 12px 0; border-bottom: 1px solid #f3f4f6;">
+          <i class="fas fa-check" style="color: #00b2ff; margin-right: 10px;"></i>
+          140+ currencies supported
+        </li>
+        <li style="padding: 12px 0;">
+          <i class="fas fa-check" style="color: #00b2ff; margin-right: 10px;"></i>
+          Accurate and reliable
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="features-container">
+      <h2>Converter Features</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-globe"></i>
+          </div>
+          <h3>Global Currencies</h3>
+          <p>Convert between 140+ world currencies with accurate, up-to-date exchange rates.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>Live Rates</h3>
+          <p>Get real-time mid-market exchange rates updated throughout the day.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-calculator"></i>
+          </div>
+          <h3>Easy Calculation</h3>
+          <p>Simple, intuitive interface for quick and accurate currency conversions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-about">
+        <div class="footer-logo">
+          <i class="fas fa-money-bill-wave"></i>
+          <span>CurrencyConverter</span>
+        </div>
+        <p>We're on a mission to provide the most accurate and reliable currency conversion tools.</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Tools</h4>
+        <ul>
+          <li><a href="#">Currency Converter</a></li>
+          <li><a href="#">Exchange Rates</a></li>
+          <li><a href="#">Currency Charts</a></li>
+          <li><a href="#">Historical Data</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">API Documentation</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 CurrencyConverter. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
